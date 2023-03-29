@@ -16,9 +16,9 @@ export const Home = () => {
                 {/* <p className="home-page__desc">
                     And we take pride in writing good code.
                 </p> */}
-                <p className="home-page__desc">
+                {/* <p className="home-page__desc">
                     We build products through research and collabortive brainstroming.
-                </p>
+                </p> */}
                 <p className="home-page__desc">
                     We're proud of our close-knit team that delivers highly challenging products to achieve the impossible.
                 </p>
@@ -39,6 +39,7 @@ export const Home = () => {
             <Work />
             <Form />
             <Footer />
+            <p>©Nissi Computing Labs 2023</p>
         </>
     )
 }
