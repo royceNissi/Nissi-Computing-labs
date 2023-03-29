@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import NissiLogo from '../assests/nissi-white.png'
-export default function Navigation() {
+export const Navigation=()=> {
   return (
     <>
       <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="dark">

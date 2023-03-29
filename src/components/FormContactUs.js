@@ -1,4 +1,4 @@
-export default function Form(){
+export const Form=()=>{
     return(
         <div className="contact-form">
             <h3 className="contact-form__header">

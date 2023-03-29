@@ -1,10 +1,10 @@
-import Navigation from "../../components/Navbar";
-import Home from "../Home"
-import WayofWork from "../Wow";
-import Work from "../Work";
-import About from "../About";
+import {Navigation} from "../../components/Navbar";
+import {Home}from "../Home.js";
+import {WayofWork} from "../Wow";
+import {Work} from "../Work";
+import {About} from "../About";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-export default function Index(){
+export const Index=()=>{
     return(
         <div>
           <Router>

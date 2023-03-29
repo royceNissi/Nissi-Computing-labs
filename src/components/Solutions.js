@@ -6,7 +6,7 @@ import adIcon from '../assests/icons/advert.png';
 import surveyIcon from '../assests/icons/survey.png';
 import hrIcon from '../assests/icons/hr.png';
 import scmIcon from '../assests/icons/scm.png';
-export default function Solutions() {
+export const Solutions=()=>{
      const solutions = [
         {
             industry: 'Ecommerce',
@@ -42,11 +42,14 @@ export default function Solutions() {
         },
     ]
     return (
-        <div className="solutions-container">
+        <div className="solutions">
+            <h2 className="solutions__header">Solutions Offered</h2>
             {solutions.map((solution) => {
                 return (
                     <div className="solution" key={solution.industry}>
-                        <img className='solution__icon' src={solution.icon} alt={solution.industry} />
+                        <img className='solution__icon' src={solution.icon} 
+                        alt={solution.industry} 
+                        width='100px'/>
                         <h5 className="solution__header">
                             {solution.industry}
                         </h5>

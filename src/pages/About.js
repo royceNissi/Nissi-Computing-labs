@@ -1,4 +1,4 @@
-export default function About(){
+export const About=()=>{
     return(
         <>
         <div className="about-page">
@@ -14,9 +14,6 @@ export default function About(){
                 <li>Built and successfully deployed a software for Agronomists and Farmers in the agriculture industry, currently used by over 100,000+ users in Latin American regions and growing to other parts of the world.</li>
                 <li>Working on the bleeding edge of technology, Nissi has been able to provide an exclusive solution to the Advertisement Industry, used by the top companies across the globe.</li>
             </ul>
-            <h2>Who we are</h2>
-            <p>We are a group of young minds working toward achieving the zenith in new age software design and development, with a goal of touching people's lives with our innovative ideas.
-            </p>
             <h2>Our Team</h2>
             <h2>Our Achievements and Success</h2>
         </div>

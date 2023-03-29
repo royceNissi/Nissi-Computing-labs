@@ -1,4 +1,4 @@
-export default function WayofWork(){
+export const WayofWork=()=>{
     return(
         <div>
             <h2>Our Way of Working</h2>

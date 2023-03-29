@@ -1,17 +1,39 @@
-export default function Work(){
+import cwx from '../assests/our products/cwx.png'
+import resonance from '../assests/our products/resonance.png'
+import sealtabs from '../assests/our products/sealtabsInfo.png'
+const products = [
+    {
+        productName:'Sealtabs',
+        productDesc:'',
+        productImg:sealtabs
+    },
+    {
+        productName:'CWX',
+        productDesc:'',
+        productImg:cwx
+    },
+    {
+        productName:'Resonance',
+        productDesc:'',
+        productImg:resonance
+    },
+]
+export const Work=()=>{
     return(
         <>
             <h2>Our Work</h2>
-            <p></p>
-            <h2>show our projects here sealtabs,resonance and cwx and so</h2>
-            <p>10+ projects</p>
-            <p>12+ years of experience</p>
-            <p>2 lakh+ consumers</p>
-            <p>some number of Clients</p>
-            <h2>testimonials</h2>
-            <p>few testimonials</p>
-            <h2>Have any projects in Mind?</h2>
-            <h2>ContactUs</h2>
+            <div className="products">
+                {products.map((product)=>{
+                    return(
+                        <div className="product" key={product.productName}>
+                            <h2 className='product__name'>{product.productName}</h2>
+                            <p className='product__desc'>{product.productDesc}</p>
+                            <img className='product__image'src={product.productImg} alt="sealtabs info page" 
+                            width='200px'/>
+                        </div>
+                    )
+                })}
+            </div>
         </>
     )
 }

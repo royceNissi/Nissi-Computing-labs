@@ -1,5 +1,5 @@
 import NissiLogo from '../assests/nissi-white.png';
-export default function Footer(){
+export const Footer=()=>{
     return(
         <div className='footer'>
             <hr/>
