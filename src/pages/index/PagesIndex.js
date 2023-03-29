@@ -11,9 +11,9 @@ export const Index=()=>{
             <Navigation/>
             <Routes>
               <Route path='/' element={<Home/>}/>
-              <Route path = '/ourWow'element={<WayofWork />}/>
-              <Route path='/ourwork' element={<Work/>}/>
-              <Route path='/aboutus' element={<About/>}/>
+              <Route path = '/our-wow'element={<WayofWork />}/>
+              <Route path='/our-work' element={<Work/>}/>
+              <Route path='/about-us' element={<About/>}/>
             </Routes>
           </Router>
         </div>

@@ -21,13 +21,13 @@ export const Navigation=()=> {
                   <Link to='/'>Home</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/ourwork'>Our Work</Link>
+                  <Link to='/our-work'>Our Work</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/ourWow'>Our Wow</Link>
+                  <Link to='/our-wow'>Our Wow</Link>
                 </Nav.Link>                                
                 <Nav.Link>
-                  <Link to='/aboutus'>About Us</Link>
+                  <Link to='/about-us'>About Us</Link>
                 </Nav.Link>
           </Nav>
         </Navbar.Collapse>
