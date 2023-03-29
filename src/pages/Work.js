@@ -1,6 +1,7 @@
 import cwx from '../assests/our products/cwx.png'
 import resonance from '../assests/our products/resonance.png'
 import sealtabs from '../assests/our products/sealtabsInfo.png'
+import { Whatyouget } from '../components/Whatyouget';
 const products = [
     {
         productName:'Sealtabs',
@@ -22,6 +23,12 @@ export const Work=()=>{
     return(
         <>
             <h2>Our Work</h2>
+            <p>
+                We are proud to offer products that are the result of extensive research, designed to cater to wide range of industries with complex problems. 
+            </p>
+            <p>
+                Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
+            </p>
             <div className="products">
                 {products.map((product)=>{
                     return(
@@ -34,6 +41,7 @@ export const Work=()=>{
                     )
                 })}
             </div>
+            <Whatyouget/>
         </>
     )
 }

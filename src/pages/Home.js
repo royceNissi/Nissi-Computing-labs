@@ -2,6 +2,7 @@ import { Form } from "../components/FormContactUs"
 import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
 import { Work } from "./Work"
+import { Success } from "../components/Success"
 export const Home = () => {
     return (
         <>
@@ -30,8 +31,11 @@ export const Home = () => {
                 <button className="home-page-buttons our-work-button">
                     Our work
                 </button>
+                <img src="" alt="Home-page-image" 
+                className="home-page__image"/>
             </div>
             <Solutions />
+            <Success/>
             <Work />
             <Form />
             <Footer />
