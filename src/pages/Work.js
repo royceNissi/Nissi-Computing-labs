@@ -12,8 +12,8 @@ export const Work=()=>{
                 Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
             </p>
             <Success/>
-            <h2>What you get with Nissi</h2>
             <Projects/>
+            <h2>What you get with Nissi</h2>
             <Whatyouget/>
         </>
     )

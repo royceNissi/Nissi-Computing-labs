@@ -37,8 +37,8 @@ export const Whatyouget = ()=>{
                     return(
                         <div className="advantage-card">
                             <img src={advantage.advantageImage} alt="" 
-                            className='advantage-image' width={'200px'}/>
-                            <h3>{advantage.advantageName}</h3>
+                            className='advantage-image'/>
+                            <h6>{advantage.advantageName}</h6>
                         </div>
                     )
                 })}

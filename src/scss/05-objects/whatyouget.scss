@@ -1,0 +1,13 @@
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin: 10px 300px;
+    justify-content: center;
+    .advantage-card{
+        text-align: center;
+        .advantage-image{
+            width: 200px;
+        }
+    }
+}
