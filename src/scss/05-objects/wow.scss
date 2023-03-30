@@ -1,0 +1,41 @@
+@import '../01-Settings/variables.scss';
+.wow-container{
+    text-align: center;
+    .wow__header{
+        margin-top: 150px;
+    }
+}
+.wow{
+    text-align: left;
+    width: 600px;
+    margin: 70px 250px ;
+    &__header{
+        margin-top: 100px;
+    }
+}
+.process{
+    display: flex;
+    justify-content: center;
+    margin: 20px 250px;
+    flex-wrap: wrap;
+    .process-card{
+        width: 250px;
+        margin: 8px 20px;
+        .process-image{
+            width: 100%;
+        }
+    }
+}
+.tech-icon-container{
+    height: 50vh;
+    margin: 5px 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .tech-icon{
+        font-size: 5em;
+        margin: 5px 10px;
+        color: $icon-color;
+    }
+}

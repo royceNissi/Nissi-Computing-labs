@@ -1,20 +1,29 @@
 import { Whatyouget } from '../components/Whatyouget';
 import { Projects } from '../components/Projects';
-import { Success } from "../components/Success"
+import { Success } from "../components/Success";
+import {Footer}from '../components/Footer'
 export const Work=()=>{
     return(
-        <>
-            <h2>Our Work</h2>
-            <p>
-                We are proud to offer products that are the result of extensive research, designed to cater to wide range of industries with complex problems. 
-            </p>
-            <p>
-                Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
-            </p>
+        <div className='work-page'>
+            <div className='has-background'>
+                <div className='work'>
+                    <h2 className='work__header'>Our Work</h2>
+                    <p className='work__desc'>
+                        We are proud to offer products that are the result of extensive research, designed to cater to wide range of industries with complex problems. 
+                    </p>
+                    <p className='work__desc'>
+                        Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
+                    </p>
+                </div>
+            </div>
             <Success/>
-            <Projects/>
-            <h2>What you get with Nissi</h2>
-            <Whatyouget/>
-        </>
+            <div className='portfolio'>
+                <h2 className='work-page__header'>Our Projects</h2>
+                <Projects/>
+                <h2 className='work-page__header'>What you get with Nissi</h2>
+                <Whatyouget/>
+            </div>
+            <Footer/>
+        </div>
     )
 }

@@ -1,0 +1,19 @@
+.work-page{
+    text-align: center;
+    .work{
+        text-align: left;
+        height: 50vh;
+        width: 600px;
+        margin: 50px 250px;
+        margin-top: 0;
+        &__header{
+            padding-top:60px ;
+        }
+    }
+    .portfolio{
+        margin-top:150px ;
+    }
+    &__header{
+        margin: 50px 0;
+    }
+}
