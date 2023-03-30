@@ -1,44 +1,44 @@
+import analytics from '../assests/features/analytics.png'
+import security from '../assests/features/data-security.png'
+import data from '../assests/features/Visual data.png'
+import performance from '../assests/features/Performance.png'
+import mobility from '../assests/features/mobility.png'
 const advantages = [
     {
-        advantageName:'Experience',
-        advantageImage:'',
-        advantageDesc:''
-    },
-    {
         advantageName:'Advanced Analytics',
-        advantageImage:'',
+        advantageImage:analytics,
         advantageDesc:''
     },{
         advantageName:'Data Security',
-        advantageImage:'',
+        advantageImage:security,
         advantageDesc:''
     },
     {
         advantageName:'Visual Data',
-        advantageImage:'',
+        advantageImage:data,
         advantageDesc:''
     },
     {
         advantageName:'Performance Management',
-        advantageImage:'',
+        advantageImage:performance,
         advantageDesc:''
     },
     {
         advantageName:'Enterprise Mobility',
-        advantageImage:'',
+        advantageImage:mobility,
         advantageDesc:''
     }
 ]
 export const Whatyouget = ()=>{
     return(
         <div>
-            <h2>What you get with Nissi</h2>
             <div className="advantages">
                 {advantages.map((advantage)=>{
                     return(
                         <div className="advantage-card">
+                            <img src={advantage.advantageImage} alt="" 
+                            className='advantage-image' width={'200px'}/>
                             <h3>{advantage.advantageName}</h3>
-                            <p>{advantage.advantageDesc}</p>
                         </div>
                     )
                 })}
