@@ -13,6 +13,10 @@ export const Success = ()=>{
                 <h2 className="number">12+ YEARS</h2>
                 <p className="field">EXPERIENCE</p>
             </div>
+            <div className="success-card">
+                <h2 className="number">40+</h2>
+                <p className="field">CLIENTS</p>
+            </div>
         </div>
     )
 }

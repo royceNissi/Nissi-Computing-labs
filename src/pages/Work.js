@@ -1,24 +1,5 @@
-import cwx from '../assests/our products/cwx.png'
-import resonance from '../assests/our products/resonance.png'
-import sealtabs from '../assests/our products/sealtabsInfo.png'
 import { Whatyouget } from '../components/Whatyouget';
-const products = [
-    {
-        productName:'Sealtabs',
-        productDesc:'',
-        productImg:sealtabs
-    },
-    {
-        productName:'CWX',
-        productDesc:'',
-        productImg:cwx
-    },
-    {
-        productName:'Resonance',
-        productDesc:'',
-        productImg:resonance
-    },
-]
+import { Projects } from '../components/Projects';
 export const Work=()=>{
     return(
         <>
@@ -29,18 +10,7 @@ export const Work=()=>{
             <p>
                 Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
             </p>
-            <div className="products">
-                {products.map((product)=>{
-                    return(
-                        <div className="product" key={product.productName}>
-                            <h2 className='product__name'>{product.productName}</h2>
-                            <p className='product__desc'>{product.productDesc}</p>
-                            <img className='product__image'src={product.productImg} alt="sealtabs info page" 
-                            width='200px'/>
-                        </div>
-                    )
-                })}
-            </div>
+            <Projects/>
             <Whatyouget/>
         </>
     )
