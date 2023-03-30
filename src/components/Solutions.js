@@ -21,11 +21,11 @@ export const Solutions=()=>{
             icon: govtIcon
         },
         {
-            industry: 'Agriculture',
+            industry: 'Sports',
             icon: agriIcon
         },
         {
-            industry: 'Advertisement',
+            industry: 'Events',
             icon: adIcon
         },
         {
@@ -35,11 +35,7 @@ export const Solutions=()=>{
         {
             industry: 'Human Resource',
             icon: hrIcon
-        },
-        {
-            industry: 'SCM',
-            icon: scmIcon
-        },
+        }
     ]
     return (
         <div className="solutions">

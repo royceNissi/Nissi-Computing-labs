@@ -1,0 +1,17 @@
+@import '../01-Settings/variables.scss';
+
+@mixin small-screen{
+    @media (min-width: #{$small-width-min}) and (max-width: #{$small-width-max}) {
+        @content;
+      }
+}
+@mixin medium-screen{
+    @media (min-width: #{$medium-width-min}) and (max-width: #{$medium-width-max}) {
+        @content;
+      }
+}
+@mixin large-screen{
+    @media (min-width: #{$large-width-min}) {
+        @content;
+      }
+}

@@ -12,7 +12,7 @@ export const WayofWork=()=>{
             <h2>Our Way of Working</h2>
             <p>We have focused our development using Research driven principles and agile development methodologies which has helped us to deliver more specific solutions.</p>
             <p> We bring into effective action every information provided by the business as complex requirements, by breaking it into smaller pieces to deliver intelligent solutions promptly.</p>
-            <h2>How it Works</h2>
+            {/* <h2>How it Works</h2>
             <div>
             <div>
                 <img src={problem} alt="" width='100px'/>
@@ -30,7 +30,7 @@ export const WayofWork=()=>{
                     <p>Provide Solutions using modern tools and technology
                     </p>
                 </div>
-            </div>
+            </div> */}
             <h2>How we do it</h2>
             <div>
                 <div>

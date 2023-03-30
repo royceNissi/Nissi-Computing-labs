@@ -35,8 +35,9 @@ export const Home = () => {
                         Our work
                     </button>
                 </div>
-                <img src={homeImage} alt="Home-page-image" 
-                className="home-page__image"/>
+                {/* <img src={homeImage} alt="Home-page-image" 
+                className="home-page__image"/> */}
+                <img src="" alt="home-image" />
             </div>
             <Solutions />
             <Success/>
