@@ -1,5 +1,6 @@
 import { Whatyouget } from '../components/Whatyouget';
 import { Projects } from '../components/Projects';
+import { Success } from "../components/Success"
 export const Work=()=>{
     return(
         <>
@@ -10,6 +11,7 @@ export const Work=()=>{
             <p>
                 Our- real-time user-based interactive and reactive products are specifically crafted to provide specific,tailored solutions.
             </p>
+            <Success/>
             <Projects/>
             <Whatyouget/>
         </>

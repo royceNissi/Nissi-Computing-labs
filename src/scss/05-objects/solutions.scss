@@ -1,0 +1,16 @@
+.solutions{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 5px 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    .solution{
+        width: 15%;
+        text-align: center;
+        &__icon{
+            margin: 5%;
+            width:70%;
+        }
+    }
+}

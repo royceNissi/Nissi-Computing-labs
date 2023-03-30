@@ -21,7 +21,7 @@ export const Solutions=()=>{
             icon: govtIcon
         },
         {
-            industry: 'Sports',
+            industry: 'Agriculture',
             icon: agriIcon
         },
         {
@@ -39,13 +39,11 @@ export const Solutions=()=>{
     ]
     return (
         <div className="solutions">
-            <h2 className="solutions__header">Solutions Offered</h2>
             {solutions.map((solution) => {
                 return (
                     <div className="solution" key={solution.industry}>
                         <img className='solution__icon' src={solution.icon} 
-                        alt={solution.industry} 
-                        width='100px'/>
+                        alt={solution.industry} />
                         <h5 className="solution__header">
                             {solution.industry}
                         </h5>

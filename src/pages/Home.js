@@ -1,7 +1,6 @@
 import { Form } from "../components/FormContactUs"
 import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
-import { Work } from "./Work"
 import { Success } from "../components/Success"
 import { Projects } from "../components/Projects"
 import homeImage from '../assests/home page image/Developer activity-bro.png'
@@ -42,6 +41,7 @@ export const Home = () => {
                 className="home-page__image"/>
             </div>
             <Projects/>
+            <h2 className="solutions__header">Solutions Offered</h2>
             <Solutions />
             <Success/>
             <Form />

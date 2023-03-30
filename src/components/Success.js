@@ -1,6 +1,6 @@
 export const Success = ()=>{
     return(
-        <div>
+        <div className="success">
             <div className="success-card">
                 <h2 className="number">10+</h2>
                 <p className="field">PROJECTS</p>
