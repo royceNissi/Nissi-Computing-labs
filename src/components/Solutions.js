@@ -1,10 +1,9 @@
-import ecommerceIcon from '../assests/icons/ecommerce.png';
-import educationIcon from '../assests/icons/education.png';
-import govtIcon from '../assests/icons/government.png';
-import agriIcon from '../assests/icons/agriculture.png';
-import adIcon from '../assests/icons/advert.png';
-import surveyIcon from '../assests/icons/survey.png';
-import hrIcon from '../assests/icons/hr.png';
+import ecommerceIcon from '../assests/solutions/ecommerce.png';
+import educationIcon from '../assests/solutions/education.png';
+import events from '../assests/solutions/events.png';
+import hrIcon from '../assests/solutions/Profiling-bro.png';
+import sports from '../assests/solutions/sports.png';
+import survey from '../assests/solutions/survey.png';
 export const Solutions=()=>{
      const solutions = [
         {
@@ -16,20 +15,16 @@ export const Solutions=()=>{
             icon: educationIcon
         },
         {
-            industry: 'Government',
-            icon: govtIcon
-        },
-        {
-            industry: 'Agriculture',
-            icon: agriIcon
-        },
-        {
             industry: 'Events',
-            icon: adIcon
+            icon: events
+        },
+        {
+            industry: 'Sports',
+            icon: sports
         },
         {
             industry: 'Surveys',
-            icon: surveyIcon
+            icon: survey
         },
         {
             industry: 'Human Resource',
