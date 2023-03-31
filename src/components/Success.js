@@ -14,7 +14,7 @@ export const Success = ()=>{
                 <p className="field">EXPERIENCE</p>
             </div>
             <div className="success-card">
-                <h2 className="number">40+</h2>
+                <h2 className="number">60+</h2>
                 <p className="field">CLIENTS</p>
             </div>
         </div>

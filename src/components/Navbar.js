@@ -11,7 +11,7 @@ export const Navigation=()=> {
       <Container>
         <Navbar.Brand>
           <Link to='/'>
-          <img src={NissiLogo} alt="" width='130px' className='nissi-logo--white'/>
+             <img src={NissiLogo} alt="" width='130px' className='nissi-logo-navbar'/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,6 +28,9 @@ export const Navigation=()=> {
                 </Nav.Link>                                
                 <Nav.Link>
                   <Link to='/about-us'>About Us</Link>
+                </Nav.Link>
+                <Nav.Link>
+                  <Link to='/contact-us'>Contact Us</Link>
                 </Nav.Link>
           </Nav>
         </Navbar.Collapse>

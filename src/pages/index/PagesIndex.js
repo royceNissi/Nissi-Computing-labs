@@ -3,19 +3,19 @@ import {Home}from "../Home.js";
 import {WayofWork} from "../Wow";
 import {Work} from "../Work";
 import {About} from "../About";
-import { ScrollToTop } from '../../components/ScrollToTop';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Form } from "../FormContactUs";
 export const Index=()=>{
     return(
         <div>
           <Router>
             <Navigation/>
-            <ScrollToTop/>
             <Routes>
               <Route path='/' element={<Home/>}/>
               <Route path = '/our-wow'element={<WayofWork />}/>
               <Route path='/our-work' element={<Work/>}/>
               <Route path='/about-us' element={<About/>}/>
+              <Route path="/contact-us" element={<Form/>}/>
             </Routes>
           </Router>
         </div>

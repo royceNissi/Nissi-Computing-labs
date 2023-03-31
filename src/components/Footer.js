@@ -22,9 +22,10 @@ export const Footer = () => {
                 </div>
                 <div className='footer__know-us'>
                     <h5>Get to know us</h5>
-                    <p>home</p>
-                    <p>about</p>
+                    <p>Home</p>
+                    <p>About Us</p>
                     <p>Our work</p>
+                    <p>Contact Us</p>
                 </div>
                 <div className='footer__connect'>
                     <h5>Connect with us</h5>

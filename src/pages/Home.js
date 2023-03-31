@@ -1,4 +1,3 @@
-import { Form } from "../components/FormContactUs"
 import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
 import { Success } from "../components/Success"
@@ -44,7 +43,6 @@ export const Home = () => {
             <h2 className="solutions__header">Solutions Offered</h2>
             <Solutions />
             <Success/>
-            <Form />
             <Footer />
         </>
     )

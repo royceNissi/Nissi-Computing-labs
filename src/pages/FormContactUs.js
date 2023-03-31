@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer"
 export const Form=()=>{
     return(
         <>
@@ -21,6 +22,7 @@ export const Form=()=>{
                     <p className="phone-number">+91 8088100900</p>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
