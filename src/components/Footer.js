@@ -1,5 +1,5 @@
 import NissiLogo from '../assests/nissi-white.png';
-import { FaRegBuilding,FaTwitter,FaLinkedinIn,FaFacebookF} from "react-icons/fa";
+import {FaTwitter,FaLinkedinIn,FaFacebookF} from "react-icons/fa";
 export const Footer = () => {
     return (
         <div className='footer-container'>
@@ -7,28 +7,28 @@ export const Footer = () => {
                 <div className='footer__address-container'>
                     <div className='address'>
                     <img src={NissiLogo} alt="" width='130px'
-                className='nissi-logo nissi-logo--white' />
-                        <h6> <FaRegBuilding /> Office address</h6>
+                className='nissi-logo ' />
+                        <h6 className='footer-header'>Office address</h6>
                         <p className='address__text'>
                             #74, Patel Ram Reddy Rd,
                             Domlur I Stage, Bengaluru
                             Karnataka, India - 560071
                         </p>
-                        <h6>E-mail</h6>
+                        <h6 className='footer-header'>E-mail</h6>
                         <p>info@nissiagency.com</p>
-                        <h6>Phone</h6>
+                        <h6 className='footer-header'>Phone</h6>
                         <p>+91 8088100900</p>
                     </div>
                 </div>
                 <div className='footer__know-us'>
-                    <h5>Get to know us</h5>
+                    <h6 className='footer-header'>Get to know us</h6>
                     <p>Home</p>
                     <p>About Us</p>
                     <p>Our work</p>
                     <p>Contact Us</p>
                 </div>
                 <div className='footer__connect'>
-                    <h5>Connect with us</h5>
+                    <h6 className='footer-header'>Connect with us</h6>
                     <div className='socials'>
                         <p><FaTwitter/></p>
                         <p><FaFacebookF/></p>
