@@ -1,22 +1,52 @@
-.footer-container{
-    padding: 50px 0;
-}
-.footer{
-    margin: 0 180px;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    &__address-container{
-        width: 300px;
+@import '../02-Tools/mixins.scss';
+@include large-screen{
+    .footer-container{
+        padding: 50px 0;
     }
-    &__connect,&__know-us{
-        padding-top: 40px;
-    }
-    .socials{
+    .footer{
+        margin: 0 180px;
+        text-align: left;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        &__address-container{
+            width: 300px;
+        }
+        &__connect,&__know-us{
+            padding-top: 40px;
+        }
+        .socials{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .copyright{
+        text-align: center;
     }
 }
-.copyright{
-    text-align: center;
+@include small-screen{
+    .footer-container{
+        padding: 20px 0;
+    }
+    .footer{
+        margin: 0 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__address-container{
+            margin: 0 25%;
+            width: 50%;
+        }
+        &__connect,&__know-us{
+            padding-top: 5px;
+        }
+        .socials{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+    .copyright{
+        text-align: center;
+    }
 }
