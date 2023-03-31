@@ -2,6 +2,7 @@ import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
 import { Success } from "../components/Success"
 import { Projects } from "../components/Projects"
+import { HiArrowNarrowRight,HiOutlineMail } from "react-icons/hi";
 import homeImage from '../assests/home page image/Developer activity-bro.png'
 export const Home = () => {
     return (
@@ -29,10 +30,10 @@ export const Home = () => {
                     </p> */}
                     <div className="button-container">
                         <button className="home-page__button contact-us-button">
-                            Contact us
+                            Contact us <HiOutlineMail/>
                         </button>
                         <button className="home-page__button our-work-button">
-                            Our work
+                            Our work <HiArrowNarrowRight/>
                         </button>
                     </div>
                 </div>
