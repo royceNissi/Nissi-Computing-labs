@@ -1,0 +1,22 @@
+.about-page{
+    text-align: center;
+    margin: 50px 200px;
+    display: flex;
+    flex-direction: column;
+    .about,.we,.mission{
+        width: 600px;
+        text-align: left;
+        padding: 50px;
+    }
+    .about,.we{
+        align-self: flex-start;
+    }
+    .mission{
+        align-self: flex-end;
+    }
+    .journey{
+        text-align: left;
+        align-self: center;
+        width: 800px;
+    }
+}

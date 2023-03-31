@@ -5,7 +5,6 @@ import agriIcon from '../assests/icons/agriculture.png';
 import adIcon from '../assests/icons/advert.png';
 import surveyIcon from '../assests/icons/survey.png';
 import hrIcon from '../assests/icons/hr.png';
-import scmIcon from '../assests/icons/scm.png';
 export const Solutions=()=>{
      const solutions = [
         {

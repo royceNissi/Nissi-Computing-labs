@@ -1,41 +1,88 @@
 @import '../01-Settings/variables.scss';
+@import '../02-Tools/mixins.scss';
 .wow-container{
     text-align: center;
-    .wow__header{
-        margin-top: 80px;
+    .wow__sub-header{
+        margin-top: 100px;
     }
 }
 .wow{
     text-align: left;
-    width: 600px;
-    margin: 70px 250px ;
-    &__header{
-        margin-top: 100px;
-    }
 }
 .process{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
     flex-wrap: wrap;
-    .process-card{
-        width: 200px;
-        margin: 8px 20px;
-        .process-image{
-            width: 100%;
-        }
-    }
 }
 .tech-icon-container{
-    height: 50vh;
-    margin: 5px 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     .tech-icon{
-        font-size: 5em;
-        margin: 5px 10px;
         color: $icon-color;
+    }
+}
+@include large-screen{
+    .wow{
+        width: 600px;
+        margin: 70px 250px ;
+        margin-bottom: 180px;
+        .wow__header{
+            margin-top: 100px;
+        }
+    }
+    .process{
+        margin: 40px 0;
+        .process-card{
+            width: 200px;
+            margin: 30px 20px;
+            .process-image{
+                width: 100%;
+            }
+        }
+    }
+    .tech-icon-container{
+        margin: 30px 300px;
+        margin-bottom: 150px;
+        .tech-icon{
+            font-size: 5em;
+            margin: 5px 10px;
+        }
+    }
+}
+@include small-screen{
+    .wow-container{
+        .wow__sub-header{
+            margin-top: 50px;
+        }
+    }
+    .wow{
+        width: 95%;
+        margin: 5px 5px;
+        .wow__header{
+            margin-top: 20px;
+        }
+    }
+    .tech-icon-container{
+        margin:30px;
+        margin-bottom: 100px;
+        .tech-icon{
+            font-size: 4em;
+            margin: 5px 10px;
+        }
+    }
+    .process{
+        .process-card{
+            width: 100%;
+            margin: 5px 10px;
+            .process-image{
+                width: 80%;
+            }
+            .process-name{
+                position: relative;
+                top: 20px;
+            }
+        }
     }
 }
