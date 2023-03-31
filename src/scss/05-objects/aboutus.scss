@@ -8,6 +8,9 @@
     .about-page{
         text-align: left;
         margin: 0 5px;
+        &__sub-heading{
+            margin: 7px 0;
+        }
     }
 }
 @include large-screen{

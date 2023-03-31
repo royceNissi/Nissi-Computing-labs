@@ -1,16 +1,19 @@
+@import '../02-Tools/mixins.scss';
 .solutions{
     display: flex;
     justify-content: center;
-    gap: 10%;
-    margin: 5px 150px;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 10%;
+    text-align: center;
+    margin-bottom: 10%;
     .solution{
-        width: 15%;
+        width: 150px;
         text-align: center;
         &__icon{
-            margin: 5%;
+            margin: 20px;
             width:70%;
         }
     }
 }
+
+

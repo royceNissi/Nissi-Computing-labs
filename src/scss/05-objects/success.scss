@@ -1,15 +1,6 @@
 @import '../02-Tools/mixins.scss';
-@include small-screen{
-    .success{
-        margin-top: 10px;
-        .success-card{
-            width: 100%;
-            margin-top: 30px;
-        }
-    }    
-}
 .success{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
@@ -17,4 +8,13 @@
     .success-card{
         text-align: center;
     }
+}
+@include small-screen{
+    .success{
+        margin-top: 20px;
+        .success-card{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }    
 }
