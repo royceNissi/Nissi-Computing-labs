@@ -1,8 +1,19 @@
+@import '../02-Tools/mixins.scss';
 .about-page{
     text-align: center;
-    margin: 50px 200px;
     display: flex;
     flex-direction: column;
+}
+@include small-screen{
+    .about-page{
+        text-align: left;
+        margin: 0 5px;
+    }
+}
+@include large-screen{
+    .about-page{
+        margin: 50px 200px;
+    }
     .about,.we,.mission{
         width: 600px;
         text-align: left;

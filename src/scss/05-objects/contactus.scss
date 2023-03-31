@@ -1,20 +1,40 @@
-.contact-form{
-    display: flex;
-    margin: 100px 300px;
-    gap: 20%;
-    &__inputs{
-        width: 50%;
+@import '../02-Tools/mixins.scss';
+@include large-screen{
+    .contact-form{
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        input,textarea,button{
-            margin: 7px;
+        margin: 100px 300px;
+        gap: 20%;
+        &__inputs{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            input,textarea,button{
+                margin: 7px;
+            }
+        }
+        .address-container{
+            padding-top: 7%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
         }
     }
-    .address-container{
-        padding-top: 7%;
-        width: 30%;
+}
+@include small-screen{
+    .contact-form{
         display: flex;
-        flex-direction: column;
+        margin: 10px 5px;
+        &__inputs{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            input,textarea,button{
+                margin: 7px;
+            }
+        }
+        .address-container{
+           display: none;
+        }
     }
 }
