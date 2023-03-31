@@ -46,7 +46,6 @@ export const Home = () => {
             <Success/>
             <Form />
             <Footer />
-            <p>©Nissi Computing Labs 2023</p>
         </>
     )
 }

@@ -1,0 +1,22 @@
+.footer-container{
+    padding: 50px 0;
+}
+.footer{
+    margin: 0 200px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    &__address-container{
+        width: 300px;
+    }
+    &__connect,&__know-us{
+        padding-top: 40px;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.copyright{
+    text-align: center;
+}
