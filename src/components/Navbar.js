@@ -7,7 +7,7 @@ import NissiLogo from '../assests/nissi-white.png'
 export const Navigation=()=> {
   return (
     <>
-      <Navbar collapseOnSelect sticky='top' expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect sticky='top' expand="lg" className='dark'variant="dark">
       <Container>
         <Navbar.Brand>
           <Link to='/'>
@@ -18,19 +18,19 @@ export const Navigation=()=> {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
                 <Nav.Link>
-                  <Link to='/'>Home</Link>
+                  <Link to='/'className='nav-links'>Home</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/our-work'>Our Work</Link>
+                  <Link to='/our-work'className='nav-links'>Our Work</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/our-wow'>Our Wow</Link>
+                  <Link to='/our-wow'className='nav-links'>Our Wow</Link>
                 </Nav.Link>                                
                 <Nav.Link>
-                  <Link to='/about-us'>About Us</Link>
+                  <Link to='/about-us'className='nav-links'>About Us</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/contact-us'>Contact Us</Link>
+                  <Link to='/contact-us'className='nav-links'>Contact Us</Link>
                 </Nav.Link>
           </Nav>
         </Navbar.Collapse>

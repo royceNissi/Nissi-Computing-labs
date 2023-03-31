@@ -1,0 +1,30 @@
+@import '../01-Settings/variables.scss';
+.dark{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.nav-links{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 14px 5px;
+}
+.nav-links:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $outline-color;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.nav-links:hover{
+    color: $outline-color;
+}
+.nav-links:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
