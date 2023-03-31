@@ -2,7 +2,8 @@ import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
 import { Success } from "../components/Success"
 import { Projects } from "../components/Projects"
-import { HiArrowNarrowRight,HiOutlineMail } from "react-icons/hi";
+import { BsArrowRight} from "react-icons/bs";
+import { CiMail} from "react-icons/ci";
 import homeImage from '../assests/home page image/Developer activity-bro.png'
 export const Home = () => {
     return (
@@ -30,10 +31,10 @@ export const Home = () => {
                     </p> */}
                     <div className="button-container">
                         <button className="home-page__button contact-us-button">
-                            Contact us <HiOutlineMail/>
+                            Contact us <CiMail/>
                         </button>
                         <button className="home-page__button our-work-button">
-                            Our work <HiArrowNarrowRight/>
+                            Our work <BsArrowRight/>
                         </button>
                     </div>
                 </div>

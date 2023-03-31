@@ -1,0 +1,18 @@
+@import '../01-Settings/variables.scss';
+.contact-us-button,.our-work-button{
+    border: 0;
+    color: white;
+    font-weight: lighter;
+}
+.contact-us-button{
+    background-color: rgb(29, 29, 29);
+}
+.contact-us-button:hover{
+    opacity: 0.9;
+}
+.our-work-button{
+    background-color: $secondary-color;
+}
+.our-work-button:hover{
+    opacity: 0.9;
+}

@@ -3,11 +3,11 @@ import {FaTwitter,FaLinkedinIn,FaFacebookF} from "react-icons/fa";
 export const Footer = () => {
     return (
         <div className='footer-container'>
+            <img src={NissiLogo} alt="" width='130px'
+                className='nissi-logo ' />
             <div className='footer'>
                 <div className='footer__address-container'>
                     <div className='address'>
-                    <img src={NissiLogo} alt="" width='130px'
-                className='nissi-logo ' />
                         <h6 className='footer-header'>Office address</h6>
                         <p className='address__text'>
                             #74, Patel Ram Reddy Rd,
