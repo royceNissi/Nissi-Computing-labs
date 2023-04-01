@@ -5,6 +5,7 @@ import { Projects } from "../components/Projects"
 import { BsArrowRight} from "react-icons/bs";
 import { CiMail} from "react-icons/ci";
 import homeImage from '../assests/home page image/Developer activity-bro.png'
+import { Link } from "react-router-dom";
 export const Home = () => {
     return (
         <>
@@ -30,12 +31,21 @@ export const Home = () => {
                         Our amazing mentors drive us to achieve the impossible every day
                     </p> */}
                     <div className="button-container">
-                        <button className="home-page__button contact-us-button">
-                            Contact us <CiMail/>
-                        </button>
+                        <div className="button">
+                        <Link to='/contact-us' className="button-link">
+                            <button className="home-page__button contact-us-button">
+                                Contact us <CiMail/>
+                            </button>
+                        </Link>
+                        </div>
+                        <div className="button">
+                        <Link to='/our-work' className="button-link" >
                         <button className="home-page__button our-work-button">
                             Our work <BsArrowRight/>
                         </button>
+                        </Link>
+                        </div>
+                        
                     </div>
                 </div>
                 <img src={homeImage} alt="Home-page-image" 

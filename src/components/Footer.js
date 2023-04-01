@@ -1,4 +1,4 @@
-import NissiLogo from '../assests/nissi-white.png';
+import NissiLogo from '../assests/nissi-blue-logo.png';
 import {FaTwitter,FaLinkedinIn,FaFacebookF} from "react-icons/fa";
 export const Footer = () => {
     return (

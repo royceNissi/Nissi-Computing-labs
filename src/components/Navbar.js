@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
-import NissiLogo from '../assests/nissi-white.png'
+import NissiLogo from '../assests/nissi-blue-logo.png'
 export const Navigation=()=> {
   return (
     <>
