@@ -3,6 +3,9 @@
     color: lightgray;
     .footer{
         background-color: rgb(41, 39, 39);
+        &__links{
+            color: lightgray;
+        }
         .footer-header{
             color: $outline-color;
         }

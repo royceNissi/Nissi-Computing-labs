@@ -1,11 +1,17 @@
 @import '../02-Tools/mixins.scss';
+@import '../01-Settings/variables.scss';
+.solutions-header{
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
 .solutions{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10%;
     text-align: center;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
     .solution{
         width: 240px;
         margin: 20px;

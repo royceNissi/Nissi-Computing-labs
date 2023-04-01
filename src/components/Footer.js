@@ -1,5 +1,9 @@
 import NissiLogo from '../assests/nissi-blue-logo.png';
 import {FaTwitter,FaLinkedinIn,FaFacebookF} from "react-icons/fa";
+import { Link } from 'react-router-dom';
+const scroll = () =>{
+    window.scroll({top:0,behavior:'smooth'})
+}
 export const Footer = () => {
     return (
         <div className='footer-container'>
@@ -22,10 +26,10 @@ export const Footer = () => {
                 </div>
                 <div className='footer__know-us'>
                     <h6 className='footer-header'>Get to know us</h6>
-                    <p>Home</p>
-                    <p>About Us</p>
-                    <p>Our work</p>
-                    <p>Contact Us</p>
+                    <Link onClick={scroll} className='footer__links' to='/'><p>Home</p></Link>
+                    <Link onClick={scroll} className='footer__links' to='/about-us'><p>About Us</p></Link>
+                    <Link onClick={scroll} className='footer__links' to='/our-work'><p>Our work</p></Link>
+                    <Link onClick={scroll} className='footer__links' to='/contact-us'><p>Contact Us</p></Link>
                 </div>
                 <div className='footer__connect'>
                     <h6 className='footer-header'>Connect with us</h6>

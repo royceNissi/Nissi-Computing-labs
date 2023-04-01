@@ -1,16 +1,16 @@
 @import '../02-Tools/mixins.scss';
-.solutions__header{
-    text-align: center;
-    margin: 50px 0;
-}
 .button-link{
-    width: 100%;
+    font-weight: 100;
 }
 .home-page{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 10%;
+    &__header{
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
     &__desc{
         padding-top: 10%;
         display: flex;
@@ -57,9 +57,10 @@
     }
     .home-page{
         &__desc{
-            padding-top: 5%;
+            padding-top: 8%;
             width: 40%;
             p{
+                margin: 30px 0;
                 font-size: 1.3em;
             }
         }
