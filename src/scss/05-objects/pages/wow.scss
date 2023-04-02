@@ -4,15 +4,22 @@
     text-align: center;
     .wow__sub-header{
         margin-top: 100px;
+        font-weight: 700;
     }
 }
 .wow{
     text-align: left;
+    &__header{
+        font-weight: 700;
+    }
 }
 .process{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.process-name{
+    font-weight: 600;
 }
 .tech-icon-container{
     display: flex;
@@ -25,11 +32,14 @@
 }
 @include large-screen{
     .wow{
-        width: 600px;
-        margin: 70px 250px ;
-        margin-bottom: 180px;
-        .wow__header{
-            margin-top: 100px;
+        width: 100%;
+        padding: 90px 250px;
+        padding-bottom: 80px;
+        &__header{
+            margin-bottom: 20px;
+        }
+        &__desc{
+            width: 60%;
         }
     }
     .process{

@@ -4,13 +4,15 @@
     .work{
         text-align: left;
         &__header{
-            padding-top:60px ;
+            padding-top:60px;
+            font-weight: 700;
         }
     }
     .portfolio{
         margin-top:150px ;
     }
     &__header{
+        font-weight: 700;
         margin: 50px 0;
     }
 }
