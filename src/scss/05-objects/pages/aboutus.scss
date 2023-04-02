@@ -8,6 +8,9 @@
     }
 }
 @include small-screen{
+    .team-head{
+        text-align: center;
+    }
     .about-page{
         text-align: left;
         margin: 0 5px;

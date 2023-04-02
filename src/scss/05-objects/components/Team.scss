@@ -1,14 +1,37 @@
+@import '../../02-Tools/mixins.scss';
 .team{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2%;
-    padding: 0 200px;
     .person{
-        width: 200px;
-        &__pic{
-            width: 100%;
+       text-align: center;
+    }
+}
+@include small-screen{
+    .team{
+        padding: 0 20px;
+        .person{
+            width: 80%;
+            &__pic{
+                width: 100%;
+            }
+        }
+    }
+}
+@include large-screen{
+    .team{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2%;
+        padding: 0 200px;
+        .person{
+            width: 200px;
+            &__pic{
+                width: 100%;
+            }
         }
     }
 }

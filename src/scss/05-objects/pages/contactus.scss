@@ -1,4 +1,23 @@
 @import '../../02-Tools/mixins.scss';
+@import '../../01-Settings/variables.scss';
+.contact-header{
+    font-weight: 700;
+}
+.address-container{
+    .sub-heading{
+        font-weight: 600;
+        color:$outline-color ;
+    }
+}
+.submit-button{
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 0;
+}
+.submit-button:hover{
+    opacity: 0.9;
+}
 @include large-screen{
     .contact-form{
         display: flex;
@@ -18,6 +37,9 @@
             width: 30%;
             display: flex;
             flex-direction: column;
+            p{
+                font-size: 1.2em;
+            }
         }
     }
 }
