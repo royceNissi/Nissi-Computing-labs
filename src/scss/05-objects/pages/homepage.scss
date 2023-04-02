@@ -1,6 +1,18 @@
 @import '../02-Tools/mixins.scss';
-.button-link{
+@import '../01-Settings/variables.scss';
+.link{
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
     font-weight: 100;
+    color: white;
+}
+.contact-link{
+    background-color: $primary-color;
+}
+.work-link{
+    background-color: $outline-color;
 }
 .home-page{
     display: flex;
@@ -21,10 +33,6 @@
         display: flex;
         gap: 10px;
     }
-    &__button{
-        font-size: 1.3em;
-        padding: 5px 10px;
-    }
 }
 @include small-screen{
     .home-page{
@@ -41,12 +49,12 @@
            padding-top: 7%;
            width: 100%;
         }
-        &__button{
-            font-size: 1em;
-            width: 100%;
-        }
         .button-container{
             gap: 10px;
+        }
+        .link{
+            width: 100%;
+            font-size: 1em;
         }
     }
 }
@@ -72,11 +80,11 @@
            width: 35%;
            height: 23%;
         }
-        &__button{
-            width: 100%;
-        }
         .button-container{
             gap: 5%;
+            .link{
+                font-size: 1.3em;
+            }
         }
     }
 }

@@ -1,0 +1,14 @@
+.team{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    padding: 0 200px;
+    .person{
+        width: 200px;
+        &__pic{
+            width: 100%;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import { Footer } from "../components/Footer"
 import { Success } from "../components/Success"
-
+import {Team} from '../components/Team'
 export const About=()=>{
     return(
         <>
@@ -30,7 +30,8 @@ export const About=()=>{
                     <li>Working on the bleeding edge of technology, Nissi has been able to provide an exclusive solution to the Advertisement Industry, used by the top companies across the globe.</li>
                 </ul>
             </div>
-            <h2 className="about-page__sub-heading team">Our Team</h2>
+            <h2 className="about-page__sub-heading team-head">Our Team</h2>
+            <Team/>
             <h2 className="about-page__sub-heading achievements">Our Achievements and Success</h2>
             <Success/>
         </div>

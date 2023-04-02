@@ -17,20 +17,11 @@ export const Home = () => {
                     <p>
                     We build products through research and collabortive brainstroming.
                     </p>
-                    {/* <p>
-                        We're a creative team of programming language enthusiasts.
-                    </p> */}
-                    {/* <p className="home-page__desc">
-                        And we take pride in writing good code.
-                    </p> */}    
-                    {/* <p className="home-page__desc">
-                        Our amazing mentors drive us to achieve the impossible every day
-                    </p> */}
                     <div className="button-container">
-                        <Link to='/contact-us' className="link">
+                        <Link to='/contact-us' className="contact-link link">
                                 Contact us <CiMail/>
                         </Link>
-                        <Link to='/our-work' className="link" >
+                        <Link to='/our-work' className="work-link link" >
                             Our work <BsArrowRight/>
                         </Link>
                     </div>
