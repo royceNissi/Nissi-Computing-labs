@@ -42,7 +42,7 @@ export const WayofWork=()=>{
                     <img src={review} alt=""className='process-image' />
                 </div>
             </div>
-            <h2 className='wow__sub-header'>Technolog we use</h2>
+            <h2 className='wow__sub-header'>Technologies we use</h2>
             <div className='tech-icon-container'>
                 <div>
                     <FaReact className='tech-icon'/>
