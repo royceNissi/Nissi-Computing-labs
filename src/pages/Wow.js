@@ -18,27 +18,58 @@ export const WayofWork=()=>{
             <h2 className='wow__sub-header'>How we do it</h2>
             <div className='process'>
                 <div className='process-card'>
-                    <h6 className='process-name'>Research</h6>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Research</h6>
+                        <p className='process-desc'>
+                            We gain a deeper understanding of our users' needs and create solutions that truly meet 
+                            their expectations.
+                        </p>
+                    </div>
                     <img src={research} alt="" className='process-image' />
                 </div>
                 <div className='process-card'>
-                    <h6 className='process-name'>Design</h6>
-                    <img src={design} alt=""className='process-image' />
-                </div>
-                <div className='process-card'>
-                    <h6 className='process-name'>Build</h6>
-                    <img src={build} alt=""className='process-image' />
-                </div>
-                <div className='process-card'>
-                    <h6 className='process-name'>Deploy</h6>
-                    <img src={deploy} alt=""className='process-image' />
-                </div>
-                <div className='process-card'>
-                    <h6 className='process-name'>Analyse</h6>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Analyse</h6>
+                        <p className='process-desc'>
+                            We take a deep  dive into the problem we're trying to solve and work closely with our stakeholders to identify the best solutions
+                        </p>
+                    </div>
                     <img src={analyse} alt=""className='process-image'  />
                 </div>
                 <div className='process-card'>
-                    <h6 className='process-name'>Review</h6>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Design</h6>
+                        <p className='process-desc'>
+                            We carefullt craft a detailed blueprint for our software's architecture and user interface.
+                        </p>
+                    </div>
+                    <img src={design} alt=""className='process-image' />
+                </div>
+                <div className='process-card'>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Build</h6>
+                        <p className='process-desc'>
+                            We bring our design to life by coding the software and implementing features and functionality that our stakeholders have requested.
+                        </p>
+                    </div>
+                    <img src={build} alt=""className='process-image' />
+                </div>
+                <div className='process-card'>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Deploy</h6>
+                        <p className='process-desc'>
+                            we deploy software to our users and provide neccessary support to ensure a smooth transition.
+                        </p>
+                    </div>
+                    <img src={deploy} alt=""className='process-image' />
+                </div>
+                <div className='process-card'>
+                    <div className='desc-container'>
+                        <h6 className='process-name'>Review</h6>
+                        <p className='process-desc'>
+                            We continue to monitor and maintain our software, making updates and improvements as needed to ensure that it continues to meet users' needs.
+                        </p>
+                    </div>
                     <img src={review} alt=""className='process-image' />
                 </div>
             </div>
