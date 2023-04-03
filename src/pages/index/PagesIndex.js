@@ -4,7 +4,7 @@ import { WayofWork } from "../Wow";
 import { Work } from "../Work";
 import { About } from "../About";
 import { Routes, Route } from 'react-router-dom';
-import { Form } from "../FormContactUs";
+import { Form } from "../ContactUs";
 
 export const Index = () => {
   return (

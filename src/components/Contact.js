@@ -12,17 +12,19 @@ export const Example = ()=> {
   return (
     <>
       <div>
-            <form>
-                <input type="text"
-                placeholder="Name"
-                 />
-                <input type="email"
-                placeholder="Email" /> 
-                <input type="textarea"
-                placeholder="Message" />
-                <Button variant="primary" onClick={handleShow}>
-                Submit
-                </Button>
+            <form className='contact-form'>
+                <div className="contact-form__inputs">
+                    <h2 className="contact-header">
+                        Contact Us
+                    </h2>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <textarea cols="30" rows="5" placeholder="Message">
+                    </textarea>
+                    <Button variant="primary" onClick={handleShow}>
+                        Submit
+                    </Button>    
+                </div>
             </form>
         </div>  
       <Modal
@@ -34,7 +36,7 @@ export const Example = ()=> {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
-         Thank you for your response
+         <h3>Thank you for your response.</h3>
         </Modal.Body>
       </Modal>
     </>

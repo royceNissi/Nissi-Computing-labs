@@ -3,18 +3,8 @@ import {Example} from '../components/Contact'
 export const Form=()=>{
     return(
         <>
-            <Example/>
-            <div className="contact-form">
-                <div className="contact-form__inputs">
-                    <h2 className="contact-header">
-                    Contact Us
-                    </h2>
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" />
-                    <textarea cols="30" rows="5" placeholder="Message">
-                    </textarea>
-                    <button className="submit-button">Submit</button>
-                </div>
+            <div className="contact-form-container">
+                <Example/>
                 <div className="address-container">
                     <h6 className="sub-heading">Office Address</h6>
                     <p className="address">#74, Patel Ram Reddy Rd, Domlur I Stage, Bengaluru Karnataka, India - 560071</p>

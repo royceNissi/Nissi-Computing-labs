@@ -19,19 +19,11 @@
     opacity: 0.9;
 }
 @include large-screen{
-    .contact-form{
+    .contact-form-container{
+        margin: 50px 200px;
         display: flex;
-        margin: 100px 300px;
-        gap: 20%;
-        &__inputs{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            input,textarea,button{
-                margin: 7px;
-            }
-        }
+        justify-content: center;
+        gap: 10%;
         .address-container{
             padding-top: 7%;
             width: 30%;
@@ -39,6 +31,18 @@
             flex-direction: column;
             p{
                 font-size: 1.2em;
+            }
+        }
+    }
+    .contact-form{
+        margin-top: 20px;
+        &__inputs{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            input,textarea,button{
+                margin: 7px;
             }
         }
     }
@@ -55,8 +59,10 @@
                 margin: 7px;
             }
         }
+    }
+    .contact-form-container{
         .address-container{
-           display: none;
-        }
+            display: none;
+         }
     }
 }
