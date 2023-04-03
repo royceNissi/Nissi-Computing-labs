@@ -13,7 +13,7 @@ export const Example = ()=> {
       setNameError('Name cannot be blank');
     }
     setNameError('');
-    setName(e.target.value);
+    setName(e.target.value.charAt(0).toUpperCase()+ e.target.value.slice(1));
   }
   const messageChange = (e) =>{
     setMessage(e.target.value);
@@ -54,11 +54,11 @@ export const Example = ()=> {
                     <input type="text" placeholder="Name"
                     value={name}
                     onChange={nameChange} />
-                    <p>{nameError}</p>
+                    <p className="error-message">{nameError}</p>
                     <input type="email" placeholder="Email"
                     value={email} 
                     onChange={emailChange}/>
-                    <p>{emailError}</p>
+                    <p className="error-message">{emailError}</p>
                     <textarea cols="30" rows="5" placeholder="Message"
                     onChange={messageChange}
                     value={message}>
@@ -72,12 +72,16 @@ export const Example = ()=> {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
       >
         <Modal.Header closeButton>
-          <Modal.Body>
-           <h3>Thank you for your response.</h3>
-          </Modal.Body>
+          <h1>Thank You {name}</h1>
         </Modal.Header>
+        <Modal.Body>
+           you will hearing from us soon!
+          </Modal.Body>
       </Modal>
     </>
   );
