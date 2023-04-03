@@ -15,8 +15,8 @@
 }
 .process{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .process-name{
     font-weight: 600;
@@ -43,14 +43,25 @@
         }
     }
     .process{
-        margin: 40px 0;
+        margin: 40px 400px;
         .process-card{
-            width: 200px;
-            margin: 30px 20px;
+            width: 250px;
+            margin: 5px 20px;
             .process-image{
                 width: 100%;
             }
         }
+        .process-card:nth-child(1),
+        .process-card:nth-child(3),
+        .process-card:nth-child(5){
+            align-self: flex-start;
+        }
+        .process-card:nth-child(2),
+        .process-card:nth-child(4),
+        .process-card:nth-child(6){
+            align-self: flex-end;
+        }
+
     }
     .tech-icon-container{
         margin: 30px 300px;

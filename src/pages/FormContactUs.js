@@ -1,7 +1,9 @@
 import { Footer } from "../components/Footer"
+import {Example} from '../components/Contact'
 export const Form=()=>{
     return(
         <>
+            <Example/>
             <div className="contact-form">
                 <div className="contact-form__inputs">
                     <h2 className="contact-header">
