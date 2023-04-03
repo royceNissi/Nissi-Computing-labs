@@ -80,10 +80,11 @@ export const Example = ()=> {
         centered
       >
         <Modal.Header closeButton>
-          <h3 className='thanks-header'>Thank You {name}</h3>
         </Modal.Header>
         <Modal.Body>
-          <h5 className='thanks-body'>you will hearing from us soon!</h5>
+          <h3 className='thanks-header'>Thank you for contacting us!</h3>
+          <h5 className='thanks-body'>We greatly appreciate your interest and will get back to you soon as possible.
+          Have a great day!</h5>
           </Modal.Body>
       </Modal>
     </>
