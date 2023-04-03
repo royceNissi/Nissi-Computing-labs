@@ -12,8 +12,10 @@ export const Example = ()=> {
       setName(e.target.value);
       setNameError('Name cannot be blank');
     }
-    setNameError('');
+    else{
+      setNameError('');
     setName(e.target.value.charAt(0).toUpperCase()+ e.target.value.slice(1));
+    }
   }
   const messageChange = (e) =>{
     setMessage(e.target.value);
@@ -54,14 +56,15 @@ export const Example = ()=> {
                     <input type="text" placeholder="Name"
                     value={name}
                     onChange={nameChange} />
-                    <p className="error-message">{nameError}</p>
+                    <span className="error-message">{nameError}</span>
                     <input type="email" placeholder="Email"
                     value={email} 
                     onChange={emailChange}/>
                     <p className="error-message">{emailError}</p>
                     <textarea cols="30" rows="5" placeholder="Message"
                     onChange={messageChange}
-                    value={message}>
+                    value={message}
+                    required>
                     </textarea>
                     <button type='submit' className='submit-button'>submit</button>    
                 </div>
@@ -72,15 +75,15 @@ export const Example = ()=> {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        size="lg"
+        size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
         <Modal.Header closeButton>
-          <h1>Thank You {name}</h1>
+          <h3 className='thanks-header'>Thank You {name}</h3>
         </Modal.Header>
         <Modal.Body>
-           you will hearing from us soon!
+          <h5 className='thanks-body'>you will hearing from us soon!</h5>
           </Modal.Body>
       </Modal>
     </>
