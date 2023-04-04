@@ -1,3 +1,4 @@
+@import '../../02-Tools/mixins.scss';
 .advantages{
     display: flex;
     flex-wrap: wrap;
@@ -7,8 +8,22 @@
     .advantage-card{
         margin: 20px;
         text-align: center;
+        h6{
+            font-size: 1em;
+        }
         .advantage-image{
             width: 200px;
+        }
+    }
+}
+@include small-screen{
+    .advantage-card{
+        h6{
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .advantage-image{
+            width: 100%;
         }
     }
 }

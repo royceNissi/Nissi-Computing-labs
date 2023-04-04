@@ -4,7 +4,7 @@
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 3%;
     justify-content: center;
     .success-card{
         text-align: center;
@@ -13,8 +13,9 @@
 @include small-screen{
     .success{
         margin-top: 20px;
+        margin-bottom: 100px;
         .success-card{
-            width: 100%;
+            width: 70%;
             margin-top: 20px;
         }
     }    
