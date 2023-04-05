@@ -16,13 +16,13 @@ export const Work=()=>{
                     </p>
                 </div>
             </div>
-            <Success/>
             <div className='portfolio'>
                 <h2 className='work-page__header'>Our Projects</h2>
                 <Projects/>
                 <h2 className='work-page__header'>What you get with Nissi</h2>
                 <Whatyouget/>
             </div>
+            <Success/>
             <Footer/>
         </div>
     )

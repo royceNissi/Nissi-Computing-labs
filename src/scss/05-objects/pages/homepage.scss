@@ -1,30 +1,63 @@
 @import '../../02-Tools/mixins.scss';
 @import '../../01-Settings/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 .link{
     padding: 10px;
     width: 40%;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: $white;
+}
+.projects-header{
+    color: $secondary-color;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 .contact-link:hover,.work-link:hover{
-    color: white;
-    opacity: 0.9;
+    color: $white;
 }
 .contact-link{
     background-color: $primary-color;
+    &:hover{
+        color: $white;
+        background-color: black;
+    }
 }
 .work-link{
     background-color: $outline-color;
+    &:hover{
+        color: $white;
+        background-color: $secondary-color;
+    }
 }
 .home-page{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 10%;
+    padding-bottom: 100px;
     &__header{
-        font-weight: 600;
-        letter-spacing: 3px;
+        line-height: 1.3;
+        font-family: 'Source Serif Pro', serif;
+        letter-spacing: 2px;
+        width: 90%;
+        font-weight: 800;
+        color: $secondary-color;
+        &:hover{
+        color: transparent;
+        background-image: linear-gradient(to right , $outline-color, $mono-color,$header-color,$header-color2);
+        -webkit-background-clip: text;
+        background-clip: text;    
+        background-size: 200%;
+        background-position: -200%;
+        animation: animated-gradient 2s infinite alternate-reverse;
+        @keyframes animated-gradient{
+            to{
+              background-position: 200%;
+            }
+          }
+        }      
     }
     &__desc{
         padding-top: 10%;
@@ -76,7 +109,7 @@
             }
         }
         &__header{
-            font-size: 2.3em;
+            font-size: 3em;
         }
         &__image{
            padding-top: 5%;

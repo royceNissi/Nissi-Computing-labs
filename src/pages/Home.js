@@ -29,6 +29,7 @@ export const Home = () => {
                 <img src={homeImage} alt="Home-page-image" 
                 className="home-page__image"/>
             </div>
+            <h2 className='projects-header'>Our Projects</h2>
             <Projects/>
             <Solutions />
             <Success/>

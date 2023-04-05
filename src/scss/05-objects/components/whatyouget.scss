@@ -3,23 +3,37 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10%;
-    margin: 10px 200px;
     justify-content: center;
     .advantage-card{
-        margin: 20px;
         text-align: center;
+    }
+}
+@include large-screen{
+    .advantages{
+        margin: 10px 200px;
+    }
+    .advantage-card{
+        width: 240px;
+        margin-bottom: 60px;
+        background-color: $background-color;
+        padding: 15px;
+        border-radius: 25px 0 25px 0;
         h6{
-            font-size: 1em;
+            font-size: 1.2em;
+            margin-top: 20px;
         }
         .advantage-image{
-            width: 200px;
+            width: 100%;
         }
     }
 }
 @include small-screen{
     .advantage-card{
+        margin-top: 20px;
+        width: 80%;
         h6{
-            font-size: 1.2em;
+            padding: 20px;
+            font-size: 1em;
             font-weight: 600;
         }
         .advantage-image{

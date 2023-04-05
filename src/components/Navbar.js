@@ -7,6 +7,10 @@ import NissiLogo from '../assests/nissi-blue-logo.png'
 import { useState } from 'react';
 export const Navigation=()=> {
   const [expanded, setExpanded] = useState(false);
+  function expandAndScroll(){
+    setExpanded(false)
+    window.scrollTo(0, 0)
+  }
   return (
     <>
       <Navbar expanded={expanded} sticky='top' expand="lg" className='dark'variant="dark">
@@ -21,19 +25,19 @@ export const Navigation=()=> {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
                 <Nav.Link>
-                  <Link to='/'className='nav-links'onClick={() => setExpanded(false)}>Home</Link>
+                  <Link to='/'className='nav-links'onClick={expandAndScroll}>Home</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/our-work'className='nav-links' onClick={() => setExpanded(false)}>Our Work</Link>
+                  <Link to='/our-work'className='nav-links' onClick={expandAndScroll}>Our Work</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/our-wow'className='nav-links'onClick={() => setExpanded(false)}>Our Wow</Link>
+                  <Link to='/our-wow'className='nav-links'onClick={expandAndScroll}>Our Wow</Link>
                 </Nav.Link>                                
                 <Nav.Link>
-                  <Link to='/about-us'className='nav-links'onClick={() => setExpanded(false)}>About Us</Link>
+                  <Link to='/about-us'className='nav-links'onClick={expandAndScroll}>About Us</Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to='/contact-us'className='nav-links'onClick={() => setExpanded(false)}>Contact Us</Link>
+                  <Link to='/contact-us'className='nav-links'onClick={expandAndScroll}>Contact Us</Link>
                 </Nav.Link>
           </Nav>
         </Navbar.Collapse>

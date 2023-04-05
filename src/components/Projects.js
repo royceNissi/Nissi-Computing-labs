@@ -1,4 +1,3 @@
-import cwx from '../assests/our products/cwx.png'
 import resonance from '../assests/our products/resonance.jpg'
 import sealtabs from '../assests/our products/sealtabs.jpg'
 import sagarpa from '../assests/our products/sagarpa.jpg'
