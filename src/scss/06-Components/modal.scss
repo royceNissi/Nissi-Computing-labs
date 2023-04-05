@@ -1,9 +1,35 @@
 @import '../01-Settings/variables.scss';
+@import '../02-Tools/mixins.scss';
 .thanks-header{
     color: $secondary-color;
     margin-bottom: 40px;
+    text-align: center;
+}
+.great-text{
+    text-align: center;
 }
 .thanks-body{
     text-align: center;
     width: 95%;
+}
+@include large-screen{
+    .thanks{
+        text-align: center;
+        margin: 10px 170px;
+    }
+}
+@include small-screen{
+    .thanks{
+        text-align: center;
+        margin: 10px 110px;
+    }
+    .thanks-header{
+        font-size: 1.3em;
+    }
+    .thanks-body{
+        display: none;
+    }
+    .great-text{
+        font-size: 1.1em;
+    }
 }

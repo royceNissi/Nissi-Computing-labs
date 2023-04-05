@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
+import thankyou from '../assests/thankyou.png';
 export const Example = ()=> {
   const [show, setShow] = useState(false);
   const [name,setName] = useState('');
@@ -82,9 +83,11 @@ export const Example = ()=> {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
+          <img src={thankyou} alt="" width={'100px'} className='thanks'/>
           <h3 className='thanks-header'>Thank you for contacting us!</h3>
           <h5 className='thanks-body'>We greatly appreciate your interest and will get back to you soon as possible.
-          Have a great day!</h5>
+          </h5>
+          <h5 className='great-text'>Have a great day!</h5>
           </Modal.Body>
       </Modal>
     </>

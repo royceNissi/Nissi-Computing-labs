@@ -9,7 +9,6 @@
     }
 }
 .wow{
-    background-color: $background-color;
     text-align: left;
     &__header{
         color: $secondary-color;
@@ -34,8 +33,14 @@
         color: $secondary-color;
     }
 }
+.tech-head{
+    color:$primary-color;
+    font-weight: 600;
+    margin-top: 100px;
+}
 @include large-screen{
     .wow{
+        background-image: linear-gradient(to bottom,rgba(41, 41, 41, 0.61),rgba(18, 42, 66, 0.677)),url('../../../assests/wowback.jpg');
         width: 100%;
         padding: 90px 250px;
         padding-bottom: 150px;
@@ -44,6 +49,8 @@
         }
         &__desc{
             width: 60%;
+            color: $white;
+            font-size: 1.1em;
         }
     }
     .process{
@@ -85,7 +92,7 @@
 
     }
     .tech-icon-container{
-        margin: 100px 380px;
+        margin: 50px 380px;
         margin-bottom: 150px;
         .tech-icon{
             font-size: 5em;
