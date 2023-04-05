@@ -6,7 +6,7 @@
 }
 .contact-form{
     input::placeholder,textarea::placeholder{
-        color: rgb(27, 123, 220);
+        color: $outline-color;
     }
     input,textarea{
         padding: 5px 10px;
