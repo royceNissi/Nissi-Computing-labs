@@ -67,7 +67,7 @@ export const Example = ()=> {
                     value={message}
                     required>
                     </textarea>
-                    <button type='submit' className='submit-button'>submit</button>    
+                    <button type='submit' className='submit-button'>Submit</button>    
                 </div>
             </form>
         </div>  

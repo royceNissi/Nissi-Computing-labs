@@ -25,6 +25,7 @@
 }
 .submit-button{
     border: 0;
+    font-size: 1.2em;
     background-color: dodgerblue;
     color: white;
     padding: 5px 0;
@@ -72,6 +73,9 @@
             input,textarea,button{
                 margin: 7px;
             }
+        }
+        .submit-button{
+            font-size: 1.1em;
         }
     }
     .contact-form-container{
