@@ -9,9 +9,15 @@
         color: $secondary-color;
     }
 }
+.mission-container,.we-container{
+    display: flex;
+}
 @include small-screen{
     .team-head{
         text-align: center;
+    }
+    .mission-container,.we-container{
+        flex-direction: column;
     }
     .about-page{
         text-align: left;
@@ -24,6 +30,12 @@
 @include large-screen{
     .about-page{
         margin: 50px 200px;
+    }
+    .mission-container,.we-container{
+        padding: 50px;
+        .team-pic{
+            align-self: center;
+        }
     }
     .about,.we,.mission{
         width: 600px;
