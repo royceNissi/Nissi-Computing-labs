@@ -141,3 +141,44 @@
         }
     }
 }
+@include medium-screen{
+    .wow-container{
+        .wow__sub-header{
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+    }
+    .wow{
+        width: 100%;
+        padding: 10px;
+        &__header{
+            margin: 20px 0;
+        }
+        &__desc:nth-child(2){
+            display: none;
+        }
+    }
+    .tech-icon-container{
+        margin:70px 20px;
+        margin-bottom: 100px;
+        .tech-icon{
+            font-size: 4em;
+            margin: 5px ;
+        }
+    }
+    .process{
+        .process-card{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 60%;
+            margin: 20px 10px;
+            .process-image{
+                width: 80%;
+            }
+            .process-name{
+                margin: 5px;
+            }
+        }
+    }
+}

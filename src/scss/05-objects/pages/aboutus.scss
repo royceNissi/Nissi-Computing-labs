@@ -1,5 +1,8 @@
 @import '../../02-Tools/mixins.scss';
 @import '../../01-Settings/variables.scss';
+.mission-container,.we-container{
+    display: flex;
+}
 .about-page{
     text-align: center;
     display: flex;
@@ -8,9 +11,6 @@
         font-weight: 700;
         color: $secondary-color;
     }
-}
-.mission-container,.we-container{
-    display: flex;
 }
 @include small-screen{
     .team-head{
@@ -27,9 +27,28 @@
         }
     }
 }
+@include medium-screen{
+    .team-head{
+        text-align: center;
+    }
+    .mission-container,.we-container{
+        flex-direction: column;
+    }
+    .team-pic{
+        width: 70%;
+        align-self: center;
+    }
+    .about-page{
+        text-align: left;
+        margin: 0 5px;
+        &__sub-heading{
+            margin: 7px 0;
+        }
+    }
+}
 @include large-screen{
     .about-page{
-        margin: 50px 200px;
+        margin: 50px 150px;
     }
     .mission-container,.we-container{
         padding: 50px;

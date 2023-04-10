@@ -84,3 +84,26 @@
          }
     }
 }
+@include medium-screen{
+    .contact-form{
+        display: flex;
+        justify-content: center;
+        margin: 10px 5px;
+        &__inputs{
+            width:70%;
+            display: flex;
+            flex-direction: column;
+            input,textarea,button{
+                margin: 7px;
+            }
+        }
+        .submit-button{
+            font-size: 1.1em;
+        }
+    }
+    .contact-form-container{
+        .address-container{
+            display: none;
+         }
+    }
+}

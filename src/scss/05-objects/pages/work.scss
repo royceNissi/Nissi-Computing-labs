@@ -35,6 +35,23 @@
         }
     }
 }
+@include medium-screen{
+    .work-page{
+        .work{
+            width: 95%;
+            margin: 30px 8px;
+            &__header{
+                padding-top:10px ;
+            }
+        }
+        .portfolio{
+            margin:20px 0 ;
+        }
+        &__header{
+            margin: 20px 0;
+        }
+    }
+}
 @include large-screen{
     .has-background{
         background-image: linear-gradient(to bottom,rgba(41, 41, 41, 0.61),rgba(18, 42, 66, 0.677)), url('../../../assests/back.jpg');

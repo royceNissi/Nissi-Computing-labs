@@ -59,3 +59,30 @@
         text-align: center;
     }
 }
+@include medium-screen{
+    .footer-container{
+        padding: 20px 0;
+    }
+    .footer{
+        padding: 20px 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__address-container{
+            margin: 0 25%;
+            width: 50%;
+        }
+        &__connect,&__know-us{
+            padding-top: 5px;
+        }
+        .socials{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+    .copyright{
+        text-align: center;
+    }
+}

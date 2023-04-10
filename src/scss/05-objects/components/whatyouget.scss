@@ -41,3 +41,17 @@
         }
     }
 }
+@include medium-screen{
+    .advantage-card{
+        margin-top: 20px;
+        width: 80%;
+        h6{
+            padding: 20px;
+            font-size: 1em;
+            font-weight: 600;
+        }
+        .advantage-image{
+            width: 70%;
+        }
+    }
+}

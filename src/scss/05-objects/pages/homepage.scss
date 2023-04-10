@@ -43,21 +43,7 @@
         letter-spacing: 2px;
         width: 90%;
         font-weight: 800;
-        color: $secondary-color;
-        &:hover{
-        color: transparent;
-        background-image: linear-gradient(to right , $outline-color, $mono-color,$header-color,$header-color2);
-        -webkit-background-clip: text;
-        background-clip: text;    
-        background-size: 200%;
-        background-position: -200%;
-        animation: animated-gradient 2s infinite alternate-reverse;
-        @keyframes animated-gradient{
-            to{
-              background-position: 200%;
-            }
-          }
-        }      
+        color: $secondary-color;      
     }
     &__desc{
         padding-top: 10%;
@@ -91,6 +77,30 @@
         .link{
             width: 100%;
             font-size: 1em;
+        }
+    }
+}
+@include medium-screen{
+    .home-page{
+        &__desc{
+            width: 80%;
+            p{
+                font-size: 1.5em;
+            }
+        }
+        &__header{
+            font-size: 2em;
+        }
+        &__image{
+           padding-top: 7%;
+           width: 80%;
+        }
+        .button-container{
+            gap: 10px;
+        }
+        .link{
+            width: 100%;
+            font-size: 1.2em;
         }
     }
 }

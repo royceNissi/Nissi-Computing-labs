@@ -28,5 +28,14 @@
         }
     }
 }
-
+@include medium-screen{
+    .solutions{
+        width: 100%;
+        gap: 5%;
+        .solution{
+            width: 270px;
+            margin: 10px 10px;
+        }
+    }
+}
 

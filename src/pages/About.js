@@ -41,8 +41,8 @@ export const About = () => {
                 <h2 className="about-page__sub-heading team-head">Our Team</h2>
                 <Team />
                 <h2 className="about-page__sub-heading achievements">Our Achievements and Success</h2>
-                <Success />
             </div>
+            <Success />
             <Footer />
         </>
     )

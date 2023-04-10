@@ -27,6 +27,25 @@
         }
     }
 }
+@include medium-screen{
+    .team{
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        .person:nth-child(1),
+        .person:nth-child(2),
+        .person:nth-child(3){
+            width: 30%;
+        }
+        .person{
+            width: 30%;
+            margin: 5px;
+            &__pic{
+                width: 100%;
+            }
+        }
+    }
+}
 @include large-screen{
     .team{
         margin-top: 50px;
