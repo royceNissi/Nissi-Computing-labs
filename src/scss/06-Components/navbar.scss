@@ -9,10 +9,8 @@
     color: $white;
     padding: 14px 5px;
     border-bottom: 3px solid $primary-color;
-    &:hover{
+    &:focus,&:active,&:hover{
         color: $outline-color;
-    }
-    &:focus,&:active{
         border-bottom: 3px solid $outline-color;
     }
 }
