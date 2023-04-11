@@ -1,7 +1,6 @@
 import { Whatyouget } from '../components/Whatyouget';
 import { Projects } from '../components/Projects';
 import { Success } from "../components/Success";
-import {Footer}from '../components/Footer'
 export const Work=()=>{
     return(
         <div className='work-page'>
@@ -23,7 +22,6 @@ export const Work=()=>{
                 <Whatyouget/>
             </div>
             <Success/>
-            <Footer/>
         </div>
     )
 }

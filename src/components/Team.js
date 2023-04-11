@@ -2,7 +2,7 @@ import { people } from "../data/People"
 export const Team = () =>{
     return(
         <div className="team">
-            {people.map((person)=>{
+            {people.length>1?people.map((person)=>{
                 return(
                     <div className="person">
                         <img src={person.Pic} alt="" className="person__pic"/>
@@ -10,7 +10,7 @@ export const Team = () =>{
                         <p className="person__role">{person.Role}</p>
                     </div>
                 )
-            })}
+            }):null}
         </div>
     )
 }

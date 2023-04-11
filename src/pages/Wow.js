@@ -6,7 +6,6 @@ import analyse from '../assests/process/analyse.png';
 import review from '../assests/process/review.png';
 import { FaReact,FaPython,FaAws,FaNode } from "react-icons/fa";
 import { SiMongodb,SiSelenium } from "react-icons/si";
-import {Footer}from '../components/Footer'
 export const WayofWork=()=>{
     return(
         <div className='wow-container'>
@@ -100,7 +99,6 @@ export const WayofWork=()=>{
                     <p>Selenium</p>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

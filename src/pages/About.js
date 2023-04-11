@@ -1,4 +1,3 @@
-import { Footer } from "../components/Footer"
 import { Success } from "../components/Success"
 import { Team } from '../components/Team'
 import Team1 from '../assests/Team/Team1.png';
@@ -43,7 +42,6 @@ export const About = () => {
                 <h2 className="about-page__sub-heading achievements">Our Achievements and Success</h2>
             </div>
             <Success />
-            <Footer />
         </>
     )
 }

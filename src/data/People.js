@@ -22,32 +22,38 @@ export const people = [
     {
         Name:'Haren Nova Edward',
         Pic:male,
-        Role:''
+        Role:'',
+        gender: 'male'
     },
     {
         Name:'Akash S',
         Pic:male,
-        Role:''
+        Role:'',
+        gender: 'male'
     },
     {
         Name:'Ranjana R',
         Pic:female,
-        Role:''
+        Role:'',
+        gender: 'female'
     },
     {
         Name:'Juhi Jyotsna Tiru',
         Pic:female,
-        Role:''
+        Role:'',
+        gender: 'female'
     },
     {
         Name:'Kruthika R',
         Pic:female,
-        Role:''
+        Role:'',
+        gender: 'female'
     },
     {
         Name:'Monitha JR',
         Pic:female,
-        Role:''
+        Role:'',
+        gender: 'female'
     },
     {
         Name:'Asmi Ashok',
@@ -62,12 +68,14 @@ export const people = [
     {
         Name:'Venkatesh M',
         Pic:male,
-        Role:''
+        Role:'',
+        gender: 'male'
     },
     {
         Name:'Navneeth S',
         Pic:male,
-        Role:''
+        Role:'',
+        gender: 'male'
     },
     {
         Name:'Nithin Kishore',

@@ -5,6 +5,7 @@ import { Work } from "../Work";
 import { About } from "../About";
 import { Routes, Route } from 'react-router-dom';
 import { Form } from "../ContactUs";
+import { Footer } from "../../components/Footer";
 
 export const Index = () => {
   return (
@@ -17,6 +18,7 @@ export const Index = () => {
           <Route path='/about-us' element={<About />} />
           <Route path="/contact-us" element={<Form />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

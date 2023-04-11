@@ -1,4 +1,3 @@
-import { Footer } from "../components/Footer"
 import {Example} from '../components/Contact'
 export const Form=()=>{
     return(
@@ -14,7 +13,6 @@ export const Form=()=>{
                     <p className="phone-number">+91 8088100900</p>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }

@@ -6,11 +6,15 @@
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: $white;
     padding: 14px 5px;
+    color: $white;
     border-bottom: 3px solid $primary-color;
-    &:focus,&:active,&:hover{
-        color: $outline-color;
-        border-bottom: 3px solid $outline-color;
-    }
+}
+.nav-links-clicked{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 14px 5px;
+    color: $outline-color;
+    border-bottom: 3px solid $outline-color;
 }

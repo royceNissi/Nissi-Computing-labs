@@ -1,4 +1,3 @@
-import { Footer } from "../components/Footer"
 import { Solutions } from "../components/Solutions"
 import { Success } from "../components/Success"
 import { Projects } from "../components/Projects"
@@ -33,7 +32,6 @@ export const Home = () => {
             <Projects/>
             <Solutions />
             <Success/>
-            <Footer />
         </>
     )
 }

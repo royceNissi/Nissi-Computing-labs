@@ -35,7 +35,7 @@ export const Solutions = () => {
         <>
             <h2 className="solutions-header">Solutions Offered</h2>
             <div className="solutions">
-                {solutions.map((solution) => {
+                {solutions.length>1?solutions.map((solution) => {
                     return (
                         <div className="solution" key={solution.industry}>
                             <img className='solution__icon' src={solution.icon}
@@ -45,7 +45,7 @@ export const Solutions = () => {
                             </h5>
                         </div>
                     )
-                })}
+                }):null}
             </div>
         </>
 
