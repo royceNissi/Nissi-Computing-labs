@@ -1,9 +1,9 @@
-import {Example} from '../components/Contact'
+import {ContactForm} from '../components/Contact'
 export const Form=()=>{
     return(
         <>
             <div className="contact-form-container">
-                <Example/>
+                <ContactForm/>
                 <div className="address-container">
                     <h6 className="sub-heading">Office Address</h6>
                     <p className="address">#74, Patel Ram Reddy Rd, Domlur I Stage, Bengaluru Karnataka, India - 560071</p>

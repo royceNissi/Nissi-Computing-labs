@@ -56,12 +56,16 @@
             align-self: center;
         }
     }
-    .about,.we,.mission{
+   .we,.mission{
         width: 600px;
         text-align: left;
         padding: 50px;
     }
-    .about,.we{
+    .about{
+        align-self: center;
+        width: 600px;
+    }
+    .we{
         align-self: flex-start;
     }
     .mission{
