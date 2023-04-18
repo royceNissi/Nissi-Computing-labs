@@ -5,161 +5,161 @@ import male from '../assests/Team/maleavatar.png'
 import female from '../assests/Team/femaleavatar.png'
 export const people = [
     {
-        Name:'Sujay David',
-        Pic:sujay,
-        Role:'CEO'
+        name:'Sujay David',
+        pic:sujay,
+        role:'CEO'
     },
     {
-        Name:'Kushal GC',
-        Pic:kushal,
-        Role:'CTO'
+        name:'Kushal GC',
+        pic:kushal,
+        role:'CTO'
     },
     {
-        Name:'Sharan Kumar',
-        Pic:sharan,
-        Role:'COO'
+        name:'Sharan Kumar',
+        pic:sharan,
+        role:'COO'
     },
     {
-        Name:'Haren Nova Edward',
-        Pic:male,
-        Role:'',
+        name:'Haren Nova Edward',
+        pic:male,
+        role:'',
         gender: 'male'
     },
     {
-        Name:'Akash S',
-        Pic:male,
-        Role:'',
+        name:'Akash S',
+        pic:male,
+        role:'',
         gender: 'male'
     },
     {
-        Name:'Ranjana R',
-        Pic:female,
-        Role:'',
+        name:'Ranjana R',
+        pic:female,
+        role:'',
         gender: 'female'
     },
     {
-        Name:'Juhi Jyotsna Tiru',
-        Pic:female,
-        Role:'',
+        name:'Juhi Jyotsna Tiru',
+        pic:female,
+        role:'',
         gender: 'female'
     },
     {
-        Name:'Kruthika R',
-        Pic:female,
-        Role:'',
+        name:'Kruthika R',
+        pic:female,
+        role:'',
         gender: 'female'
     },
     {
-        Name:'Monitha JR',
-        Pic:female,
-        Role:'',
+        name:'Monitha JR',
+        pic:female,
+        role:'',
         gender: 'female'
     },
     {
-        Name:'Asmi Ashok',
-        Pic:female,
-        Role:''
+        name:'Asmi Ashok',
+        pic:female,
+        role:''
     },
     {
-        Name:'Nishitha S',
-        Pic:female,
-        Role:''
+        name:'Nishitha S',
+        pic:female,
+        role:''
     },
     {
-        Name:'Venkatesh M',
-        Pic:male,
-        Role:'',
+        name:'Venkatesh M',
+        pic:male,
+        role:'',
         gender: 'male'
     },
     {
-        Name:'Navneeth S',
-        Pic:male,
-        Role:'',
+        name:'Navneeth S',
+        pic:male,
+        role:'',
         gender: 'male'
     },
     {
-        Name:'Nithin Kishore',
-        Pic:male,
-        Role:''
+        name:'Nithin Kishore',
+        pic:male,
+        role:''
     },
     {
-        Name:'Nikithesh HR',
-        Pic:male,
-        Role:''
+        name:'Nikithesh HR',
+        pic:male,
+        role:''
     },
     {
-        Name:'Pranay Kakati',
-        Pic:male,
-        Role:''
+        name:'Pranay Kakati',
+        pic:male,
+        role:''
     },
     {
-        Name:'Naidile VJ',
-        Pic:female,
-        Role:''
+        name:'Naidile VJ',
+        pic:female,
+        role:''
     },
     {
-        Name:'Shalini J',
-        Pic:female,
-        Role:''
+        name:'Shalini J',
+        pic:female,
+        role:''
     },
     {
-        Name:'Monisha P',
-        Pic:female,
-        Role:''
+        name:'Monisha P',
+        pic:female,
+        role:''
     },
     {
-        Name:'Pavithra KM',
-        Pic:female,
-        Role:''
+        name:'Pavithra KM',
+        pic:female,
+        role:''
     },
     {
-        Name:'Tanuj Tyagi',
-        Pic:male,
-        Role:''
+        name:'Tanuj Tyagi',
+        pic:male,
+        role:''
     },
     {
-        Name:'Nilma CP',
-        Pic:female,
-        Role:''
+        name:'Nilma CP',
+        pic:female,
+        role:''
     },
     {
-        Name:'Chiradwip Deb',
-        Pic:male,
-        Role:''
+        name:'Chiradwip Deb',
+        pic:male,
+        role:''
     },
     {
-        Name:'Victor A Lazar',
-        Pic:male,
-        Role:''
+        name:'Victor A Lazar',
+        pic:male,
+        role:''
     },
     {
-        Name:'Vinay BM',
-        Pic:male,
-        Role:''
+        name:'Vinay BM',
+        pic:male,
+        role:''
     },
     {
-        Name:'Sohan Sirish N',
-        Pic:male,
-        Role:''
+        name:'Sohan Sirish N',
+        pic:male,
+        role:''
     },
     {
-        Name:'Andrew Smith',
-        Pic:male,
-        Role:''
+        name:'Andrew Smith',
+        pic:male,
+        role:''
     },
     {
-        Name:'Devraj Khanra',
-        Pic:male,
-        Role:''
+        name:'Devraj Khanra',
+        pic:male,
+        role:''
     },
     {
-        Name:'Hashim Bhat',
-        Pic:male,
-        Role:''
+        name:'Hashim Bhat',
+        pic:male,
+        role:''
     },
     {
-        Name:'Royce Christon Goveas',
-        Pic:male,
-        Role:''
+        name:'Royce Christon Goveas',
+        pic:male,
+        role:''
     },
 ]
