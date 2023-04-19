@@ -2,7 +2,7 @@
 @import '../../01-Settings/variables.scss';
 .solutions-header{
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
     font-weight: 700;
     color: $secondary-color;
 }
@@ -10,12 +10,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     .solution{
         width: 300px;
-        margin: 30px 20px;
+        margin: 30px 10px;
         padding: 15px;
         border-radius: 25px 0 25px 0;
         text-align: center;

@@ -33,7 +33,6 @@ export const ContactForm = () => {
       setEmailError('Please enter Valid Email');
     } 
   }
-
   const handleClose = () => {
     setShow(false)
     setName('');
@@ -42,7 +41,7 @@ export const ContactForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name.trim > 2 && email.trim > 1 && message.trim >3) {
+    if (name && email && message) {
       setShow(true);
     }
   }
@@ -88,7 +87,7 @@ export const ContactForm = () => {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
-          <img src={thankyou} alt="" width={'100px'} className='thanks' />
+          <img src={thankyou} alt="" width={'100px'} className='thanks-image' />
           <h3 className='thanks-header'>Thank you for contacting us!</h3>
           <h5 className='thanks-body'>We greatly appreciate your interest and will get back to you soon as possible.
           </h5>

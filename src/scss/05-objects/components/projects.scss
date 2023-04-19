@@ -1,17 +1,28 @@
 @import '../../01-Settings/variables.scss';
+@import '../../02-Tools/mixins.scss';
 .products{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background-color: $background-color;
-    padding: 100px 50px;
+    padding: 30px 250px;
     .product{
         &__image{
-            margin: 30px;
-            width: 190px;
+            margin: 10px;
+            width: 230px;
+        }
+    }
+}
+@include small-screen{
+    .products{
+        padding: 20px;
+        .product{
+            &__image{
+                width: 65%;
+            }
         }
     }
 }

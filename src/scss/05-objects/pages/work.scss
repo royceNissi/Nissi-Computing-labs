@@ -9,9 +9,6 @@
             color: $secondary-color;
         }
     }
-    .portfolio{
-        margin-top:150px ;
-    }
     &__header{
         font-weight: 700;
         margin: 50px 0;
@@ -55,7 +52,7 @@
 @include large-screen{
     .has-background{
         background-image: linear-gradient(to bottom,rgba(41, 41, 41, 0.61),rgba(18, 42, 66, 0.677)), url('../../../assests/back.jpg');
-        height: 580px;
+        height: 500px;
         .work{
             color: $white;
             font-size: 1.2em;
@@ -63,10 +60,12 @@
     }
     .work-page{
         .work{
-            height: 50vh;
             width: 600px;
-            margin: 50px 250px;
+            margin: 10px 180px;
             margin-top: 0;
         }
+    }
+    .portfolio{
+        margin-top: 80px;
     }
 }
