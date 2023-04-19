@@ -5,7 +5,7 @@ export const Whatyouget = ()=>{
             <div className="advantages">
                 {advantages.map((advantage)=>{
                     return(
-                        <div className="advantage-card">
+                        <div className="advantage-card" key={advantage.advantageName}>
                             <img src={advantage.advantageImage} alt="" 
                             className='advantage-image'/>
                             <h6>{advantage.advantageName}</h6>
